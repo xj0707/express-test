@@ -8,7 +8,7 @@ router.use(function timeLog(req, res, next) {
 })
 
 router.get('/', (req, res) => {
-    res.send('webhooks')
+    res.send('git webhooks')
 })
 
 
